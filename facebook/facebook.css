@@ -1,0 +1,204 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    margin: 0;
+    font-family: 'Lobster-Two';
+    line-height: 1.28;
+}
+
+.navbar
+{
+    width: 100%;
+    height: 80px;
+    background:#9F7E69;
+    border-bottom: 1px solid #D2BBA0;
+}
+h2 
+{
+margin-left: 300px;
+padding-top: 25px;
+
+}
+.login_form{
+    display: flex;
+    position: absolute;
+    left: 58%;
+    top: 15px;
+}
+.login_form .email-phone,  .login_form .password
+{
+padding-left: 10px;
+}
+.login_form .email-phone .font,  .login_form .password .font
+{
+    font-size: 13px;
+    padding-bottom: 4px;
+    color: white;
+}
+.login_form .email-phone input, .login_form .password input
+{
+    height: 23px;
+    width: 150px;
+    padding-left: 5px;
+    border: 1px solid #f7ffe0;     
+    outline: none;
+} 
+.login-btn{
+    width: 50px;
+    height: 24px;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 2px;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    background: #9f7e69;
+    border: 1px solid  #f7ffe0;
+}
+section
+{
+height: 850px;
+width: 100%;
+top: 800px;
+background: linear-gradient(#9f7e69, #d2bba0, #f2efc7, #f7ffe0);
+
+}
+.facebook-logo
+{
+    position: absolute;
+    left: 15%;
+    top: 20%
+}
+.facebook-logo .p1
+{
+    font-size: 25px;
+    margin-left: -100px;
+    
+}
+.facebooklogo
+{
+    height: 550px;
+    margin-left: -4%;
+}
+.signup
+{
+    position: absolute;
+    left: 57%;
+}
+.signup .p2
+{
+    font-size: 50px;
+    margin: 20px 0;
+
+}
+.signup .p3
+{
+    margin: -20px 5px;
+    font-size: 28px;
+}
+.signup .signup-form input{
+margin-top: 50px;
+height: 38px;
+width: 190px;
+padding-left: 10px;
+font-size: 18px;
+border: 1px solid white;
+border-radius: 4px;
+}
+
+.signup .signup-form .lastname
+{
+ margin-left: 15px;
+}
+.signup .signup-form .email,
+.signup .signup-form .password, 
+.signup .signup-form .password2
+{
+    margin-top: 20px;
+    width: 410px;
+}
+.signup .signup-form .pp4
+{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+}
+.signup .signup-form .birth-date
+{
+    margin-top: 25px;
+}
+.signup .signup-form .month, .signup .signup-form .day, .signup .signup-form .year
+{
+ height: 28px;
+}
+.signup .signup-form .day, .signup .signup-form .year
+{
+    margin-left: -5px;
+}
+.signup .signup-form .brth-hint
+{
+    font-size: 11px;
+    padding-left: 170px;
+    margin-top: -28px;
+    width: 150px;
+}
+.signup .signup-form a
+{
+text-decoration: none;
+}
+.signup .signup-form a:hover
+{
+    text-decoration: underline;
+}
+.signup .signup-form input[type="radio"]
+{
+    height: 15px;
+    margin-left: -50px;
+    margin-top: 30px;
+}
+.signup .signup-form input[value="female"]
+{
+    margin-left: -100px;
+}
+.signup .signup-form .p5
+{
+    margin-left: 57px;
+    margin-top: -22px;
+}
+.signup .signup-form .pp6
+{   
+  margin-left: 150px;
+    margin-top: -21px;
+}
+.signup .signup-form .pp7
+{
+margin-top: 15px;
+font-size: 12px;
+width: 350px;
+color: grey;
+}
+.signup .signup-form .signup-btn
+{
+    margin-top: 20px;
+    height: 38px;
+    width: 170px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(#9f7e69, #d2bba0, #f2efc7,  #f7ffe0);
+}
+.signup .signup-form .signup-btn:hover
+{
+    background: linear-gradient(#9f7e69, #d2bba0, #f2efc7);
+}
+
